@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>refresh me!</title> 
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="favicon.jpg"/>
+  </head>
+  
+  <body>
+    
+    <div id="container"
+      style="display:flex;"
+      
+    >
+    
+    
+      <img
+        id="picture"
+        src=""
+        style="height:25rem; max-width: 100%;"
+              
+      />
+
+      <a href=""><button type="button">refresh me!</button></a>
+      <p>
+       thisis my handwrihting!!!!!jajhf;a;hfai
+       fghajkcnqwertyuioolkjhgfdszxcvbnm
+       
+      
+        </p>
+        <p1>
+        man
+        </p1>
+  </div>
+ 
+
+
+ 
+  </body>
+  <script>
+    
+    var myPicture = document.getElementById("picture");
+  
+    
+
+    var index = Math.floor(Math.random() * 381);
+    var imageName = "./images/" + index + ".jpg";
+
+    myPicture.setAttribute("src", imageName);
+  </script>
+  
+</html>

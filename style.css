@@ -1,0 +1,71 @@
+#container{
+    justify-content:space-between;
+    max-width: 70%;
+
+
+   
+      
+}
+
+
+body{
+    background-image: url(background/bg.png);
+    background-size: cover;
+    
+}
+
+a{
+    align-self:center;
+
+}
+
+@font-face{
+
+    src: url(fonts/moomoo.ttf);
+    font-family: moomoo;
+
+}
+
+button {
+    margin-left:20px;   
+    height: 2rem;
+    width: 9rem;
+    font-size: 1.5em;
+    font-family: monospace;
+    background-color: rgba(172, 194, 248, 0.541);
+    border-width:2px;
+    border-style: ridge;
+    border-color: initial;
+   
+}
+
+
+p{
+
+    color:rgb(54, 48, 33);
+    font-size:30px;
+    font-family: moomoo;
+    align-self:flex-end;
+    letter-spacing: 1px;
+    border-width:2.5px;
+    padding-left: 30px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    padding-top: 2px;
+    
+}
+
+
+p1{
+    color: #ece9d3;
+    align-self:stretch;
+    margin-top:130px;
+    margin-left: 130px;
+    font-style: normal;
+    font-family:monospace;
+
+}
+
+//background-color:#da7283 
+
+background: #b76e79;//
